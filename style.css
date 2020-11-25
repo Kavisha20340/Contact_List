@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body{
+    background-image: url('pic.jpg');
+    color: rgb(255, 71, 26); /*colour of font throughout*/
+    background-size: cover; /*to cover entire background space*/
+    background-repeat: no-repeat;
+    background-position: center center; /*in center on both x and y axis*/
+    overflow-x: hidden; /*just to scroll horizontally*/
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgb(105, 89, 89);
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    margin: 10px;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(105, 89, 89);
+}
+#conlist{
+    color: black;;
+}
